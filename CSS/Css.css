@@ -1,0 +1,66 @@
+body {
+    font-family:cursive;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-color: #660808;
+    padding: 20px;
+}
+  
+h1{
+    text-align: center;
+}
+  
+main {
+    padding: 20px;
+}
+  
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid #000; 
+}
+  
+.hero-content {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+.feature {
+    border: 2px solid #000; 
+    border-radius: 20px;
+}
+.features > h2 {
+    text-align: center;
+  }
+
+.testimonials {
+    text-align: center;
+    font-size: 10px;
+}   
+.testimonial {
+    text-align: justify;
+    font-size: 10px;
+    padding: 20px; /* Añadir espacio interno */
+    border: 2px solid #000; 
+    border-radius: 60px;
+    width: 30%; 
+    height: 100px;
+    background-color: aquamarine;
+  }
+
+
+.testimonials :hover p {
+    color: blue;
+}/* cambiar el cursos no se */
+
+.cursos{
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 0px;
+    
+
+}
